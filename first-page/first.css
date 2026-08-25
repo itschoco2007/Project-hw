@@ -1,0 +1,424 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css);
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+:root {
+    --primary-color: rgb(126, 38, 53);
+}
+.all {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0px;    
+    padding: 7px 40px;
+    background-color: rgb(248, 203, 210);
+    cursor: pointer;
+
+
+}
+.nav-list a:hover {
+    color: rgb(126, 38, 53);
+}
+.nav-list a {
+    text-decoration: none;
+    color: black;
+}
+.nav-list li {
+     list-style: none;
+
+
+   
+}
+h1:hover {
+        color: rgb(126, 38, 53);
+}
+.logo-o i:hover {
+    
+    color: rgb(126, 38, 53);
+
+}
+.logo-o  {
+      justify-content: space-between;
+      display: flex;
+      gap: 15px;
+       margin: 5px;
+      
+}
+.imgg {
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+}
+.first-  {
+    position: absolute;
+    margin: 200px 0px 0px 45px;
+    color: white;
+   
+}
+.first- p {
+    margin-top: 40px;
+    display: flex;
+}
+
+.topic-1 {
+
+    margin: 390px 0px 0px 45px;
+    color: rgb(16, 16, 16);
+
+}
+    .topic-1 p {
+        margin-top: 20px;
+    }
+    .section-1 {
+        display: flex;
+        cursor: pointer;
+
+    }
+.section-1:hover {
+        color: rgb(126, 38, 53);
+
+}
+.image-1  {
+    margin-left: 55px;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: 80px;
+}
+ .scar{
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 70px;
+    
+  
+    color: rgb(250, 250, 250);
+    font-weight: bold;
+    display: inline-block;
+    
+   
+}
+.image-2 {
+    margin-left: 398px;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: 80px;
+    cursor: pointer;
+
+}
+.scar-2 {
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 415px;
+    
+  
+    color: rgb(250, 250, 250);
+    font-weight: bold;
+    display: inline-block;
+
+}
+.image-3 {
+     margin-left: 747px;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: 80px;
+    cursor: pointer;
+
+}
+.scar-3 {
+       position: absolute;
+    margin-top: 220px;
+    margin-left: 760px;
+    
+  
+    color: rgb(250, 250, 250);
+    font-weight: bold;
+    display: inline-block;
+}
+.image-4 {
+    margin-left: 1097px;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: 80px;
+    cursor: pointer;
+}
+.scar-4 {
+         position: absolute;
+    margin-top: 220px;
+    margin-left: 1117px;
+    
+  
+    color: rgb(250, 250, 250);
+    font-weight: bold;
+    display: inline-block;
+}
+.to-pic {
+
+    margin-top: 290px;
+    margin-left: 520px;
+   justify-content: center;
+}
+.view {
+    margin-left: 150px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.view:hover {
+    color: rgb(126, 38, 53);
+}
+.h-2 {
+     margin: 0px 0px 0px 45px;
+    color: rgb(16, 16, 16);
+}
+.img-last {
+      margin-left: 45px;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: 80px;
+}
+
+
+.imagee-1  {
+  margin-left: 60px;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: 80px;
+}
+.imagee-2  {
+     margin-left: 400px;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: 80px;
+    cursor: pointer;
+}
+.imagee-3  {
+    margin-left: 745px;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: 80px;
+    cursor: pointer;
+}
+.imagee-4  {
+    margin-left: 1099px;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: 80px;
+    cursor: pointer;
+}
+.scarr {
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 60px;
+    
+  
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+    display: inline-block;
+}
+.scarr-2 {
+    position: absolute;
+    margin-top: 420px;
+   margin-left: 407px;
+    
+  
+    color: rgb(9, 9, 9);
+    font-weight: bold;
+    display: inline-block;
+
+}
+.scarr-3 {
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 750px;
+    
+  
+    color: rgb(12, 12, 12);
+    font-weight: bold;
+    display: inline-block;
+}
+.scarr-4 {
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 1105px;
+    
+  
+    color: rgb(22, 21, 21);
+    font-weight: bold;
+    display: inline-block;
+}
+.price {
+      position: absolute;
+    margin-top: 460px;
+    margin-left: 60px;
+    
+  
+    color: rgb(95, 94, 94);
+   
+    display: inline-block;
+}
+.price-1 {
+      position: absolute;
+    margin-top: 460px;
+    margin-left: 409px;
+    
+  
+    color: rgb(95, 94, 94);
+
+    display: inline-block;
+}
+.price-2 {
+    position: absolute;
+    margin-top: 460px;
+    margin-left: 757px;
+    
+  
+    color: rgb(95, 94, 94);
+
+    display: inline-block;
+}
+
+.price-3 {
+    position: absolute;
+    margin-top: 460px;
+    margin-left: 1107px;
+    
+  
+    color: rgb(95, 94, 94);
+
+    display: inline-block;
+}
+.add-btn {
+    padding: 5px 15px;
+    margin-top: 470px;
+    
+    position: relative;
+    display: flex;
+    gap: 10px;
+
+}
+
+.btn-class {
+     /* padding: 5px 15px;
+    margin-top: 230px;
+    margin-left: 50px;
+    cursor: pointer;
+    border: 3px;
+
+  
+    display: flex;
+    gap: 10px; */
+}
+.btn-btn {
+     border: 3px solid black;
+     border-radius: 6px;
+     padding: 7px;
+
+ 
+      color: rgb(243, 240, 240);
+       text-decoration: none;
+       margin-left: 45px;
+       cursor: pointer;
+       background-color: rgb(10, 10, 10);
+}
+.add {
+   
+   padding: 90px;
+  
+    
+
+}
+/* --outsonecard hr-  */
+
+.last  {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0px;    
+    padding: 7px 40px;
+   
+    cursor: pointer;
+    
+
+}
+
+.very {
+    display: flex;
+    justify-content: right;
+    width: 90%;
+    margin-top: -50px;    
+    padding: 0px 80px 50px 0px;
+   margin-left: 30px;
+    cursor: pointer;
+    
+
+}
+.very li a:hover {
+    text-decoration: underline;
+}
+.last-one a {
+
+      text-decoration: none;
+}
+
+.logoo-o a {
+    color: rgb(126, 38, 53);
+  
+    
+   
+}
+.logoo-o li {
+     list-style: none;
+        margin-top: 2px;  
+    
+}
+.last-logo li a{
+    text-decoration: none;
+
+}
+.last-logo a {
+    color: rgb(126, 38, 53);
+    
+   
+}
+.last-logo li {
+     list-style: none;
+     margin-top: 2px;   
+    
+}
+.logoo-o a {
+    margin-top: 2px;
+}
+.social {
+     list-style: none;
+     margin-top: 2px;  
+}
+.social a {
+    color: rgb(126, 38, 53);
+}
+.foot-last {
+    justify-content: center;
+    
+    background-color:  rgb(248, 203, 210);
+    padding: 10px;
+}
+.hnin {
+    margin-left: 600px;
+
+}
